@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Example DRAG</title>
+        <style>
+            .draggable{
+                background-color: lightblue;
+                height: 200px; 
+                width: 200px;
+                margin: 20px;
+            }
+
+            .draggableContainer, .dropArea{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .dropArea{
+                border-style: solid;
+                border-width: 2px;
+                padding: 10px;
+                width: 800px;
+                min-height: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="draggableContainer">
+        <div class="draggable" id="1">Draggable 1</div>
+        <div class="draggable" id="2">Draggable 2</div>
+        <div class="draggable" id="3">Draggable 3</div>
+        </div>
+        <hr>
+        <div>Drop area 1</div>
+        <div class="dropArea">
+            
+        </div>
+
+        <div>Drop area 2</div>
+        <div class="dropArea">
+            
+        </div>
+    </body>
+</html>
